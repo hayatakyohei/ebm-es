@@ -1,0 +1,320 @@
+/*共通部分*/
+a{
+    text-decoration:none;
+}
+li{
+    list-style:none;
+}
+*{
+    box-sizing:border-box;
+}
+.container{
+    max-width:750px;
+}
+h2{
+    font-family:はんなり明朝;
+    font-size: 40px;
+    color:#727171;
+    margin-bottom: 20px;
+    line-height:1.5em;
+    margin-top: 10px;
+}
+img{
+    width: 100%;
+}
+
+/*resetcssで消えた上付き文字の修正*/
+sup {
+    vertical-align:top;
+    font-size:large;
+    }
+/*ここまで*/
+
+/*共通部分ここまで*/
+
+
+/*スマホ画面*/
+
+/*ヘッダー*/
+
+/*swiper部分の画像の調節*/
+.swiper-container{
+ text-align: center;
+}
+.swiper-container img{
+    width:auto;
+    height:70vh;
+}
+.recommend{
+    padding-left: 30px;
+    margin-top: 50px;
+}
+.recommend ul{
+    margin-bottom: 90px;
+}
+header p{
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom:1px solid #4C3D3D;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    width: 83vw;
+}
+.recommend li{
+    font-size: 18px;
+    line-height:1.7em;
+}
+.pararax{
+    margin-top: 60px;
+    padding: 0 20px;
+}
+.pararax1{
+    margin-top: 10px;
+    padding: 0 20px;
+}
+.pararax1 h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+    line-height:1.5em;
+}
+.pararax1 p{
+    font-size: 18px;
+    line-height:1.8em;
+    margin-bottom: 20px;
+}
+.step{
+    text-align: center;
+}
+.step li{
+    margin-bottom: 10px;
+}
+.background{
+    background-color:#F19CA7;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:#fff;
+    width: 25vw;
+    text-align: center;
+    border-radius:5px;
+    margin:0 auto;
+}
+
+.step1{
+    width: 150px;
+    height:150px;
+    border-radius:75px;
+    background-color:#EEEDED;
+    margin:0 auto;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+.product-step{
+    color:#D68F41;
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+.product-explain{
+    font-size: 30px;
+    color:#727171;
+}
+#step{
+    padding:0 20px;
+}
+#step>p{
+    font-size: 18px;
+    line-height:1.8em;
+}
+.item>div:nth-of-type(1){
+    text-align: center;
+    margin-top: 20px;
+}
+.item>div:nth-of-type(1) p{
+    font-size: 18px;
+    color:#D68F41;
+    margin-bottom: 10px;
+}
+.texture1 p:first-child{
+    color:#D68F41;
+    line-height:1.8em;
+}
+.texture1 p:last-child{
+    font-size: 18px;
+    line-height:1.8em;
+    width: 60vw;
+}
+.component,
+.component1{
+    display: flex;
+}
+.component img{
+    display: block;
+    width:20vw;
+    height:10vh;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.item>div:nth-of-type(3){
+    margin-top: 20px;
+    width: 90vw;
+    border-bottom:1px dotted #D68F41;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.component1 img{
+    display: block;
+    width:20vw;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.item>p{
+    font-size: 18px;
+    line-height:1.8em;
+    margin-bottom: 30px;
+}
+.method>div{
+    text-align: center;
+}
+.method>div>p{
+    font-size: 18px;
+    padding: 10px;
+    background-color:#E8E8EA;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius:15px;
+}
+.method li,
+.method>p{
+    font-size: 18px;
+    line-height:1.8em;
+}
+.method img{
+    width: 30vw;
+}
+.method li:nth-child(2n){
+    text-align: center;
+}
+.method{
+    margin-bottom: 40px;
+}
+.point li{
+    font-size: 18px;
+    line-height:1.8em;
+}
+.point li:first-child{
+    text-align: center;
+}
+.point li:first-child p{
+    padding: 10px;
+    background-color:#E8E8EA;
+    display: inline-block;
+    border-radius:15px;
+    margin-bottom: 15px;
+}
+.name{
+    margin-top: 50px;
+    font-size: 25.5px;
+    color:#D68F41;
+    margin-bottom: 10px;
+}
+.price p:first-child{
+    font-size: 20px;
+    color:#D68F41;
+    margin-bottom: 10px;
+}
+.price p:last-child{
+    margin-bottom: 20px;
+}
+.name-price{
+    margin-bottom: 90px;
+}
+.name-price>p:last-child{
+    font-size: 14px;
+    line-height:1.4em;
+}
+.component2 img{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.method1 img{
+    width: 60vw;
+}
+.hundred{
+    font-size: 20px;
+    color: #D68F41;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.massage{
+    font-size: 25px;
+    color: #D68F41;
+    margin-bottom: 20px;
+}
+.ohuro li:nth-child(n+2),.neck li:nth-child(n+2){
+    display: flex;
+}
+.ohuro-massage,.neck-massage{
+    display: block;
+    width: 50vw;
+}
+.ohuro li>p:nth-child(2),.neck li>p:nth-child(2){
+    width: 43vw;
+    font-size: 18px;
+    line-height: 1.8em;
+    margin-top: 35px;
+}
+.ohuro li:first-child,.neck li:first-child{
+    color:#BD9D63;
+    font-size: 18px;
+    text-align: center;
+}
+.neck li:first-child{
+    margin-top: 60px;
+}
+main>p:last-child{
+    margin-top: 10px;
+    line-height:1.5em;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+/*ここからパララックス*/
+.pararax{
+    transform:translateX(-50px);/* 最初は元の位置より左にずらしておく */
+    opacity:0;  /* 最初は非表示にしておく */
+    transition:opacity 2s,transform 2s;/* 透明度と位置を設定 */
+}
+.pararax1{
+    transform:translate(0,0);/* 最初は元の位置より右にずらしておく */
+    opacity:0;  /* 最初は非表示にしておく */
+    transition:opacity 2s,transform 2s;/* 透明度と位置を設定 */
+}
+.fadein{
+    opacity:1;/* 表示させる */
+    transform:translateX(-1px); /* 位置を最初の位置に戻す */
+}
+.move{/*説明文に背景色がある*/
+    opacity:1;/* 表示させる */
+    transform:translate(-20px, 0); /* 位置を最初の位置に戻す */
+    
+    margin-left: 40px;
+    padding: 20px;
+}
+.background-color{
+    
+    padding: 10px;
+}
+.move1{/*説明文に背景色がない*/
+    opacity:1;/* 表示させる */
+    transform:translate(-20px, 0); /* 位置を最初の位置に戻す */
+    margin-left: 40px;
+}
+/*パララックスここまで*/
+
+
+
+
+
