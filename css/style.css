@@ -12,7 +12,7 @@ li{
     max-width:750px;
 }
 h2{
-    font-family:はんなり明朝;
+    font-family:'Hannari','Noto Serif JP', serif;
     font-size: 40px;
     color:#727171;
     margin-bottom: 20px;
@@ -28,13 +28,19 @@ sup {
     vertical-align:top;
     font-size:large;
     }
-/*ここまで*/
+/*修正ここまで*/
 
 /*共通部分ここまで*/
 
 
-/*スマホ画面*/
 
+
+
+
+
+
+
+/*スマホ画面*/
 /*ヘッダー*/
 
 /*swiper部分の画像の調節*/
@@ -43,7 +49,7 @@ sup {
 }
 .swiper-container img{
     width:auto;
-    height:70vh;
+    height:400px;
 }
 .recommend{
     padding-left: 30px;
@@ -65,7 +71,7 @@ header p{
     line-height:1.7em;
 }
 .pararax{
-    margin-top: 60px;
+    margin-top: 40px;
     padding: 0 20px;
 }
 .pararax1{
@@ -87,6 +93,7 @@ header p{
 }
 .step li{
     margin-bottom: 10px;
+    margin-top: 10px;
 }
 .background{
     background-color:#F19CA7;
@@ -100,15 +107,16 @@ header p{
 }
 
 .step1{
-    width: 150px;
-    height:150px;
-    border-radius:75px;
+    width: 160px;
+    height:160px;
+    border-radius:80px;
     background-color:#EEEDED;
     margin:0 auto;
     display: flex;
     align-items:center;
     justify-content:center;
     flex-direction:column;
+    margin-top: 40px;
 }
 .product-step{
     color:#D68F41;
@@ -134,6 +142,7 @@ header p{
     font-size: 18px;
     color:#D68F41;
     margin-bottom: 10px;
+    margin-top: 10px;
 }
 .texture1 p:first-child{
     color:#D68F41;
@@ -189,6 +198,7 @@ header p{
 .method>p{
     font-size: 18px;
     line-height:1.8em;
+    margin-bottom: 10px;
 }
 .method img{
     width: 30vw;
@@ -251,9 +261,12 @@ header p{
     font-size: 25px;
     color: #D68F41;
     margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .ohuro li:nth-child(n+2),.neck li:nth-child(n+2){
     display: flex;
+    margin-bottom: 20px;
 }
 .ohuro-massage,.neck-massage{
     display: block;
@@ -263,12 +276,13 @@ header p{
     width: 43vw;
     font-size: 18px;
     line-height: 1.8em;
-    margin-top: 35px;
+    margin-top: 25px;
 }
-.ohuro li:first-child,.neck li:first-child{
+.ohuro div,.neck div{
     color:#BD9D63;
     font-size: 18px;
     text-align: center;
+    margin-bottom: 10px;
 }
 .neck li:first-child{
     margin-top: 60px;
@@ -276,21 +290,23 @@ header p{
 main>p:last-child{
     margin-top: 10px;
     line-height:1.5em;
-    padding-left: 20px;
-    padding-right: 20px;
-
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.point{
+    margin: 0 20px 40px 20px;
 }
 
 /*ここからパララックス*/
 .pararax{
     transform:translateX(-50px);/* 最初は元の位置より左にずらしておく */
     opacity:0;  /* 最初は非表示にしておく */
-    transition:opacity 2s,transform 2s;/* 透明度と位置を設定 */
+    transition:opacity 2s,transform 3s;/* 透明度と位置を設定 */
 }
 .pararax1{
     transform:translate(0,0);/* 最初は元の位置より右にずらしておく */
     opacity:0;  /* 最初は非表示にしておく */
-    transition:opacity 2s,transform 2s;/* 透明度と位置を設定 */
+    transition:opacity 2s,transform 3s;/* 透明度と位置を設定 */
 }
 .fadein{
     opacity:1;/* 表示させる */
@@ -299,8 +315,7 @@ main>p:last-child{
 .move{/*説明文に背景色がある*/
     opacity:1;/* 表示させる */
     transform:translate(-20px, 0); /* 位置を最初の位置に戻す */
-    
-    margin-left: 40px;
+    margin-left: 30px;
     padding: 20px;
 }
 .background-color{
@@ -318,3 +333,18 @@ main>p:last-child{
 
 
 
+/*ヘッダーのロゴ*/
+.title{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.title img{
+    display: block;
+    width: 90px;
+    height: 90px;
+}
+.logo p{
+    border:none;
+    width: 60vw;
+}
